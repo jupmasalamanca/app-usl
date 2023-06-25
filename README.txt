@@ -1,4 +1,4 @@
-# how to rebuild the entire android folder react
+# how to rebuild the entire android folder react 
 npx react-native eject
 
 si no corre instalar el eject con este npm
