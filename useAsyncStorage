@@ -1,0 +1,9 @@
+  const add = async ()=>{
+    try {
+      await AsyncStorage.setItem('userInfo', userInfo)
+      console.log('Guarda los datos');
+    }
+    catch (e){
+      console.error(e);
+    }
+  }
